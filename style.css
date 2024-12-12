@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imgs/istockphoto-1438034462-612x612.jpg);
+    color: white; 
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat; /* Impede a repetição */
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* A imagem fica fixa ao rolar a página */
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.btn-danger {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
